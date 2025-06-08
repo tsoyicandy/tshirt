@@ -59,6 +59,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <input type="password" class="form-control" id="motdepasse" name="motdepasse" required>
         </div>
         <button type="submit" class="btn btn-primary w-100">Se connecter</button>
+
+            <a href="../../admin/index.php" class="">Gestion?</a>
+
     </form>
 </div>
 
